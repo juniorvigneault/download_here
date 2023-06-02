@@ -3,7 +3,7 @@ Examining the comedic potential of interaction design through pirate websites.
 
 [Random Pool of Ideas](randomPoolOfIdeas.md)
 
-June 2nd 2023
+### June 2nd 2023
 
 I created a simple template for my webpage. When creating websites, I'm usually not using CSS grids and flexboxes because I always want to make something weirder, and those sorts of "perfect" templates feel a bit tacky and very "internety" to me, but here I'm diving in and actually learning how to build a proper HTML/CSS page, which is nice.
 
