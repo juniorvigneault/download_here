@@ -60,16 +60,7 @@ section {
     height: 800px;
 }
 
-#grid-2 {
-    margin: 0 auto;
-    background-color: #ffffff;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    margin-top: 15px;
-    height: 800px;
 
-}
 
 /* POSTER AND BUTTONS BOX */
 #box-1-poster {
@@ -96,12 +87,13 @@ section {
 #box-2-description {
     font-size: 14px;
     display: grid;
-    grid-template-rows: 1.5fr .5fr .5fr .3fr;
+    grid-template-rows: 1.4fr .5fr .5fr .3fr;
     padding: 15px 25px;
 }
 
 #movie-title {
-    font-size: 30px;
+    font-size: 40px;
+    margin-bottom: -10px;
 }
 
 /* MOVIE DESCRIPTION BOX - 2 (year, country, director...) */
@@ -180,8 +172,9 @@ section {
 .box-4-button {
     width: 400px;
     height: 60px;
+    outline: none;
     border-radius: 200px;
-    border: none;
+    /* border: none; */
     margin: 0 auto;
 }
 
@@ -190,5 +183,73 @@ section {
     margin: 25px auto;
 }
 
+#grid-2 {
+    margin: 0 auto;
+    background-color: #ffffff;
+    display: grid;
+    /* grid-template-columns: 1fr 2fr; */
+    grid-template-rows: 1fr 1fr;
+    margin-top: 15px;
+    height: 500px;
+    row-gap: 25px;
+}
 
-#box-1-dunno {}
+#grid-2-box-1 {
+    border-style: solid;
+    border-radius: 40px;
+    border-color: lightgrey;
+}
+
+#grid-2-box-2 {
+    border-style: solid;
+    border-radius: 40px;
+    border-color: lightgrey;
+}
+
+#grid-2-box-span {
+    margin-left: 25px;
+}
+
+#item-box-container {
+    position: fixed;
+    bottom: -150px;
+    background-color: rgb(203, 192, 192);
+    height: 130px;
+    z-index: 9999;
+    width: 800px;
+    align-items: center;
+    right: 200px;
+    border-radius: 20px;
+    transition: bottom 0.3s ease;
+    margin-bottom: 20px;
+}
+
+#item-box {
+    padding: 25px;
+}
+
+#item-box-toggle-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    background-color: rgb(165, 162, 162);
+    border: none;
+    /* Remove borders */
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 12px 16px;
+    cursor: pointer;
+    border-radius: 100px;
+    /* box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.341) */
+    /* Mouse pointer on hover */
+}
+
+#item-box-toggle-button:hover {
+    background-color: rgb(172, 170, 170);
+
+}
+
+#item-box-toggle-button:active {
+    bottom: 18px;
+}
