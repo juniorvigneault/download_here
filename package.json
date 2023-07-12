@@ -1,0 +1,25 @@
+{
+  "name": "download_here",
+  "version": "1.0.0",
+  "description": "Examining the comedic potential of interaction design through pirate websites.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juniorvigneault/download_here.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juniorvigneault/download_here/issues"
+  },
+  "homepage": "https://github.com/juniorvigneault/download_here#readme",
+  "dependencies": {
+    "matter-js": "^0.19.0"
+  },
+  "devDependencies": {
+    "vite": "^4.4.2"
+  }
+}
